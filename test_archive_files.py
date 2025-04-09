@@ -7,7 +7,7 @@ from openpyxl import load_workbook
 from pypdf import PdfReader
 
 # Получение пути к архиву
-archive_path = os.path.join(os.getcwd(), 'archive_files.zip')
+archive_path = os.path.join(os.getcwd(), 'resources', 'archive_files.zip')
 
 
 def test_csv(create_archive):
